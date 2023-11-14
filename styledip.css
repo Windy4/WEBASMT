@@ -1,0 +1,38 @@
+body{
+    background-color: #F2F2F2;
+    margin: 0;
+}
+html{
+    margin: 0;
+}
+#header{
+    margin: 0;
+    height: 162px;
+    width: 100%;
+    background: linear-gradient(to right, #591839 0%,#611a3e 30%,#791d4c 100%);
+}
+#logo{
+    width: 5%;
+}
+.center {
+    display: block;
+    margin: 0 auto;
+}
+#school-name{
+    color: white;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 40px;
+}
+h1{
+    margin: 0;
+}
+.navoptions{
+    width: 100%;
+    float: right;
+}
+#navbar{
+    float: right;
+    width: 3%;
+    position: relative;
+}

@@ -1,0 +1,136 @@
+body {
+    margin: 0;
+    float: left;
+}
+
+.header {
+    background: #591839;
+    height: 162px;
+}
+
+.wrap {
+    margin: 0;
+    /* float: left; Remove the float property */
+    position: relative;
+    background-color: #F2F2F2;
+    /* Add the clearfix class to clear the floats */
+}
+
+p{
+    margin: 0;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+html {
+    margin: 0;
+}
+
+.col-1 {
+    width: 25%;
+    float: left;
+    position: relative;
+    background-color: #F2F2F2;
+}
+
+h1 {
+    margin: 0%;
+}
+
+.col-2 {
+    width: 50%;
+    float: left;
+    position: relative;
+    background-color: #F2F2F2;
+}
+
+.col-3 {
+    width: 25%;
+    float: left;
+    position: relative;
+    background-color: #F2F2F2;
+}
+
+.options {
+    max-width: 10%;
+    float: right;
+}
+
+#name {
+    padding-top: 59px;
+}
+
+.logo {
+    float: right;
+    margin-top: 33.5px;
+}
+
+.labels {
+    color: white;
+    margin: 0;
+    padding-right: 10px;
+    padding-top: 6px;
+    font-size: 100%;
+    float: right;
+}
+
+.r-1 {
+    width: 100%;
+    height: 33%;
+}
+
+.r-2 {
+    width: 100%;
+    height: 33%;
+}
+
+.r-3 {
+    width: 100%;
+    height: 33%;
+}
+
+#dropdown-1 {
+    margin: 50px 30px 0 30px;
+    height: 162px;
+    background-color: #F2F2F2;
+    position: absolute;
+}
+
+#dropdown-2 {
+    margin: 50px 30px 0 30px;
+    height: 162px;
+    background-color: #F2F2F2;
+    position: absolute;
+}
+
+#dropdown-3 {
+    margin: 50px 30px 0 30px;
+    height: 162px;
+    background-color: #F2F2F2;
+}
+
+.dropdown {
+    background-color: #F2F2F2;
+    position: absolute;
+}
+
+.droptext {
+    color: #6a6a6a;
+    margin-top: 162px;
+    position: absolute;
+}
+
+#MainBody {
+    margin: 200px 0 0 0;
+}
+
+#info {
+    width: 100%;
+    height: 200px;
+    background-color: #0e3141;
+    color: #6f8ca0;
+}
